@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    padding: 0 10rem;
+}
+
+#app,
+body {
+    height: 100vh;
+}
+
+body {
+    background: url("./assets/background.jpg") no-repeat center center/cover;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    color: #d6d6f2;
+    max-width: 23.75rem;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 140%;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-wrapper {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    background-color: #151557;
+    border-radius: 62.4375rem;
+    color: #e2e2f5;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #212187;
+}
